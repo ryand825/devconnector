@@ -189,7 +189,7 @@ export class CreateProfile extends Component {
                 />
                 <TextFieldGroup
                   name="githubusername"
-                  placeholder="Company"
+                  placeholder="Github URL"
                   value={this.state.githubusername}
                   onChange={this.onChange}
                   error={errors.githubusername}
