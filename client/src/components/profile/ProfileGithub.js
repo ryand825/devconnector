@@ -57,7 +57,7 @@ export class ProfileGitHub extends Component {
       </div>
     ));
     return (
-      <div>
+      <div ref="myRef">
         <hr />
         <h3 className="mb-4">Latest Github Repositories</h3>
         {repoItems}
